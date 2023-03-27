@@ -5,7 +5,7 @@ class CalculationService:
     @staticmethod
     def calculate(data: ExtractedData) -> CalculatedData:
         calculated_data = CalculatedData()
-        for item in data:
+        for item in data.items:
             affiliate = item.affiliate
             employee = item.employee
             tax_base = item.tax_base
