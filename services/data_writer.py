@@ -41,5 +41,5 @@ class WriteCalculatedDataService:
                 WriteCalculatedDataService._convert_money_to_pretty(item.deviations)
             )
 
-        df = pd.DataFrame(data=to_write)
+        df = pd.DataFrame(data=to_write).sort_values(by="deviations")
         df.to_excel(path, index=False)
