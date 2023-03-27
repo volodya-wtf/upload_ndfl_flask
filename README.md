@@ -8,4 +8,4 @@ todo:
 - Валидация загружаемых файлов и детальное отображение проблем
 - Кастомизация шапки отчета
 
-![Uploading giphy.gif…]()
+![Uploading https://github.com/volodya-wtf/upload_ndfl_flask/blob/master/giphy.gif]()
